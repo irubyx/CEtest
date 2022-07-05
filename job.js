@@ -1,11 +1,11 @@
-console.log(process.argv)
+// console.log(process.argv)
 
-const arg1 = process.argv[2]
-const arg2 = process.argv[3]
+// const arg1 = process.argv[2]
+// const arg2 = process.argv[3]
 
 const { exec } = require('child_process');
 
-const script = exec('sh runJob.sh',
+const script = exec('bash runJob.sh',
     (error, stdout, stderr) => {
         console.log(stdout);
         console.log(stderr);
