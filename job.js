@@ -24,8 +24,8 @@ const calculateWater = (personas, horas) => {
 }
 
 console.log("XXX")
-console.log("Menus for first class: " + calculateFood(cantFirstClass, cantHours) + ". Bottles of water (2.5L): " + calculateWater(cantFirstClass, cantHours))
-console.log("Menus for economy class: " + calculateFood(cantFirstClass, cantHours) + ". Bottles of water (2.5L): " + calculateWater(cantFirstClass, cantHours))
-console.log("Menus for children: " + cantChildren)
-console.log("Horas de viaje: " + cantHours)
+console.log("Menus for first class: " + calculateFood(cantFirstClass, cantHours) + ". Bottles of water (2.5L): " + calculateWater(cantFirstClass, cantHours) + ".")
+console.log("Menus for economy class: " + calculateFood(cantFirstClass, cantHours) + ". Bottles of water (2.5L): " + calculateWater(cantFirstClass, cantHours) + ".")
+console.log("Menus for children: " + cantChildren + ".")
+console.log("Flight hours: " + cantHours + ".")
 console.log("XXX")
